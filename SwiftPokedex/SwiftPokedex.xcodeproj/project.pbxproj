@@ -51,6 +51,9 @@
 		613BC11C275C46B500630F89 /* SwiftPokedex */ = {
 			isa = PBXGroup;
 			children = (
+				613BC12D275C470900630F89 /* ViewModel */,
+				613BC12C275C470400630F89 /* View */,
+				613BC12B275C470000630F89 /* Model */,
 				613BC11D275C46B500630F89 /* SwiftPokedexApp.swift */,
 				613BC11F275C46B500630F89 /* ContentView.swift */,
 				613BC121275C46B700630F89 /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				613BC124275C46B700630F89 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		613BC12B275C470000630F89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		613BC12C275C470400630F89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		613BC12D275C470900630F89 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
