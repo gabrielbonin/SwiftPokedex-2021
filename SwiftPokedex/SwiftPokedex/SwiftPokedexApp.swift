@@ -2,7 +2,7 @@
 //  SwiftPokedexApp.swift
 //  SwiftPokedex
 //
-//  Created by Gabriel MBLABS on 04/12/21.
+//  Created by Gabriel Bonin on 04/12/21.
 //
 
 import SwiftUI
