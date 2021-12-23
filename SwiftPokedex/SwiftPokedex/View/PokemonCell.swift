@@ -5,10 +5,12 @@
 //  Created by Gabriel Bonin on 04/12/21.
 //
 
+import Kingfisher
 import SwiftUI
 
 struct PokemonCell: View {
     let pokemon: Pokemon
+
     var body: some View {
         ZStack {
             VStack(alignment: .leading) {
@@ -26,11 +28,11 @@ struct PokemonCell: View {
                         .padding(.vertical, 8)
                         .overlay(
                             RoundedRectangle(cornerRadius: 20)
-                                    .fill(Color.white.opacity(0.25))
+                                .fill(Color.white.opacity(0.25))
                         )
                         .frame(width: 100, height: 25)
 
-                    Image("bulbasaur")
+                    KFImage(URL(string: pokemon.imageUrl))
                         .resizable()
                         .scaledToFit()
                         .frame(width: 68, height: 68)
